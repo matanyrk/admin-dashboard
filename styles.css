@@ -166,11 +166,13 @@ input{
 .avatar:hover{
     transition: 0.3s;
     transform: scale(1.3);  
+    cursor: pointer;
 }
 
 #notifications:hover{
     transition: 0.3s;
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 .avatarname{
