@@ -6,20 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <rel></rel>
 </head>
 <body>
     <main>
     
     <div class="content">
-        <div class="sidebar"></div>
-
+        <div class="sidebar">
+            <div class="sidebartitle">
+                <div class="iconcontainer">
+                    <img src="/Users/matanyarkoni/Projects/odin/admin-dashboard/resources/desk-lamp.png">
+                </div>
+                <h2 id="title">Dashboard</h2>
+            </div>
+            <div class="navbar">
+                <div class="navbarcontainer">
+                    <i class="material-icons">home</i><h4>Home</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">perm_identity</i><h4>Profile</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">chat_bubble</i><h4>Messages</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">history</i><h4>History</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">dns</i><h4>Tasks</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">forum</i><h4>Communities</h4></div>
+                <br>
+                <br>
+                <br>
+                <div class="navbarcontainer"><i class="material-icons">settings</i><h4>Settings</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">help</i><h4>Support</h4></div>
+                <div class="navbarcontainer"><i class="material-icons">security</i><h4>Privacy</h4></div>
+            </div>
+        </div>
     <div class="gridcontainer">
         <div class="header" id="header">
-            <input class="searchbar"></input>
-            <div class="notifications"></div>
-            <div class="userdata"></div>
+            <div class="searchbar"><i class="material-icons" id="searchicon" >search</i>
+                <input type="text" name="search"></input>
+            </div>
+            <div class="toprightcorner">
+                <i class="material-icons" id="notifications">notifications</i>
+                <div class="avatar"></div>
+                <div class="avatarname">Morgan Oakley</div>
+            </div>
+            
             <div class="gridtitle" id="gridtitle">
-                <div class="greeting"></div>
+                <div class="greeting">
+                <div class="picture"></div>
+                <div class="picturetext"><p class="hi">Hi there, <br><b>Morgan Oakly (@morgan)</b></p></div>
+            </div>
                 <div class="buttoncontainer">
                     <button class="blue">New</button><button class="blue">Upload</button><button class="blue">Share</button>
                 </div>
@@ -37,7 +70,7 @@
     <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic temporibus voluptatum asperiores reiciendis voluptatem saepe!</div>
    </div>
    <div class="announcementstrending">
-    <h3>Announcement</h3>
+    <h3>Announcements</h3>
     <div class="container1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic temporibus voluptatum asperiores reiciendis voluptatem saepe!</div>
     <h3>Trending</h3>
     <div class="container1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic temporibus voluptatum asperiores reiciendis voluptatem saepe!</div>
